@@ -49,4 +49,5 @@ today = datetime.now().strftime("%Y-%m-%d")
 df.to_csv(f"news_{today}.csv", index=False, encoding="utf-8-sig")
 print("데이터 수집 및 저장 완료")
 
+
   
