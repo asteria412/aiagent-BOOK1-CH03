@@ -15,7 +15,6 @@ df = pd.DataFrame({
 })
 
 # 선 그래프 작성
-
 plt.plot(df["hour"], df["views"])
 
 # 그래프 정보 설정
